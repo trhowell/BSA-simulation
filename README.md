@@ -1,4 +1,4 @@
-This script takes two files, one with names for individuals in the high bulk and one with names for the low bulk. Both should be sorted is descending order (phenotypic ranking) and the script will remove the bottom individual from the high bulk and the top individual from the low bulk for each iteration.
+This script takes two files, one with names for individuals in the high bulk and one with names for the low bulk. Both should be sorted in descending order (phenotypic ranking) and the script will remove the bottom individual from the high bulk and the top individual from the low bulk for each iteration.
 
 usage: step_simulation.py [-h] -m MPILEUP -1 HIGHBULK -2 LOWBULK
                           [-s SNPS_OF_INTEREST] [-r REPORT_THRESHOLD]
